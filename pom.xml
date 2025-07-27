@@ -8,9 +8,10 @@
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
+		<java.version>11</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<aws.sdk.version>2.25.15</aws.sdk.version>
 	</properties>
-
 	<dependencies>
 		<!-- AWS SDK v2: EC2 for VPC -->
 		<dependency>
@@ -18,7 +19,6 @@
 			<artifactId>ec2</artifactId>
 			<version>${aws.sdk.version}</version>
 		</dependency>
-
 		<!-- AWS SDK v2: Direct Connect -->
 		<dependency>
 			<groupId>software.amazon.awssdk</groupId>
